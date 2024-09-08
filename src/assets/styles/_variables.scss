@@ -1,0 +1,10 @@
+$primary-color: #1f1f1f;
+$secondary-color: #f7f7f7;
+$text-color: #333;
+$background-color: #f5f5f5;
+$font-family: "Inter";
+
+@font-face {
+  font-family: $font-family;
+  src: url("../fonts/Inter_24pt-Regular.ttf");
+}

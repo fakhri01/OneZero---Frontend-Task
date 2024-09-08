@@ -1,0 +1,87 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal-content {
+    background-color: white;
+    padding: 5px 0 5px 5px;
+    border-radius: 8px;
+    width: 35.8rem;
+    height: 21.1rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    text-align: left;
+    gap: 1.3rem;
+
+    .desc {
+      flex: 2;
+    }
+
+    .title {
+      color: #404040;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.6rem;
+      margin-top: 5px;
+    }
+
+    .category {
+      color: #8d8d88;
+      font-size: 1.2rem;
+      margin: 6px 0 10px;
+    }
+
+    .price {
+      color: #1f1f1f;
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 1.4rem;
+    }
+
+    .quantity {
+      display: flex;
+      gap: 1.4rem;
+      margin-top: 2.6rem;
+      font-size: 1.44rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #efeded;
+
+      button {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.44rem;
+        border: none;
+        border-radius: 6px;
+      }
+
+      p {
+        line-height: 3rem;
+      }
+    }
+
+    ul.info {
+      margin-top: 1rem;
+      margin-left: 1.3rem;
+      li {
+        font-size: 1rem;
+        color: #8d8d8d;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 468px) {
+
+  .modal{
+    padding: 0 1.6rem;
+
+  }
+}
